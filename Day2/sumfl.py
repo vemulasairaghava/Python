@@ -1,0 +1,9 @@
+def sumlf():
+    n = int(input("Enter a number: "))
+    num = n
+    last = n % 10
+    while n >= 10:
+        n = n // 10
+    first = n
+    print(f"first{first} and last digit {last} sum is :{first+last}")
+sumlf()
